@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.conteiner{
+    width: 60rem;
+    height: 35rem;
+    border: solid 1px #000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    background: blueviolet;
+}
+.conteiner .title{
+    width: inherit;
+    background: rgb(36, 152, 187);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px 0 0 0;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.726);
+    position: fixed;
+    top: 80px;
+}
+.quiz-conteiner{
+   width: inherit;
+   padding: 30px;
+   margin-top: 90px;
+   display: flex;
+   flex-direction: column;
+}
+.alternative-question label{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 1.2rem;
+}
+.alternative-question label input{
+    margin-right: 1rem;
+}
+.question{
+    font-size: 1.6rem;
+    color: rgb(10, 231, 238);
+}
+.pop-up{
+    width: 58rem;
+    height: 32rem;
+    background: rgba(0, 0, 0, 0.904);
+    position:absolute;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgb(238, 203, 6);
+}
+.pop-up h2{
+    font-size: 3rem;
+    color: rgb(175, 171, 43);
+}
+.pop-up span{
+    font-size: 2rem;
+    color: #fff;
+}
+.pop-up button{
+    background: rgb(28, 137, 177);
+    color: rgb(255, 255, 255);
+    padding: .5rem 2rem;
+    border: none;
+    font-size: 24px;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.next{
+    background: rgb(5, 248, 248);
+    padding: 10px;
+    border: none;
+    margin: 20px;
+    margin-top: 50px;
+    color: rgb(97, 138, 16);
+    font-size: 1.3rem;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px #fff;
+}
+.next:hover{
+    background: rgb(10, 172, 172);
+    color: rgb(204, 202, 204);
+    cursor: pointer;
+}
+.count{
+    font-size: 1.3rem;
+}
